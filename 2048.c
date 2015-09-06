@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 #include<stdlib.h>
-
+//hiiiiiii
 int a[4][4];
 
 void upswipe();
