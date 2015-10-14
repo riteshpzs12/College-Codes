@@ -9,29 +9,26 @@ typedef struct vector{
  * Adds the vectors 'a' ad 'b' and pupulates the results
  * in vector res
  */
-void add(Vector *a, Vector *b, Vector *res){
-  //if(res==NULL) {
-    //res = (Vector*)malloc(sizeof(Vector));
-  //}
+Vector* add(Vector *a, Vector *b){
+  res = (Vector*)malloc(sizeof(Vector));
   res->x = a->x + b->x;
   res->y = a->y + b->y;
   res->z = a->z + b->z;
+  return res;
 }
 
-void dot(Vector *a, Vector *b,double res)
+double dot(Vector *a, Vector *b)
 {
-	res = a->x*b->x + a->y*b->y + a->z*b->z;
+	return a->x*b->x + a->y*b->y + a->z*b->z;
 }
 
-void cross(Vector *a, Vector *b, Vector *res)
+Vector* cross(Vector *a, Vector *b)
 {
-  	//if(res==NULL)
-//	{
-  //  	res = (Vector*)malloc(sizeof(Vector));
-	//}
-	res->x = a->y*b->z - a->z*b->y;
-	res->y = a->z*b->x - a->x*b->z;
-	res->z = a->x*b->y - a->y*b->x;
+  res = (Vector*)malloc(sizeof(Vector));
+  res->x = a->y*b->z - a->z*b->y;
+  res->y = a->z*b->x - a->x*b->z;
+  res->z = a->x*b->y - a->y*b->x;
+  return res;
 }
 
 /**
@@ -40,7 +37,7 @@ void cross(Vector *a, Vector *b, Vector *res)
  */
 void scale(Vector *a, double s)
 {
-	s = pow((a->x),2) + pow((a->y),2) + pow((a->z),2);
-	s = pow((s),1/2);
+  a->x *= s;
+  a->y *= s;
+  a->z *= s;
 }
-
