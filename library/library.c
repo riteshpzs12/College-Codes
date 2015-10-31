@@ -85,7 +85,7 @@ void create()
      {
        // fflush(stdin);
 	     printf("\nEnter ur name: ");
-         scanf("%30s", user[user_cnt].uname); 
+         scanf("%29s", user[user_cnt].uname); 
          fflush(stdin);
 	     printf("Enter ur phone no.: "); 	     
          fflush(stdin);
