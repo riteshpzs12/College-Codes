@@ -1,8 +1,10 @@
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
+#define N 30   /* Size of any names*/
+
 struct member{
-       char uname[30];
+       char uname[N];
        long long int phone;
        int issue[4];
        int u_id;
@@ -10,8 +12,8 @@ struct member{
        }user[50];
 
 struct books{
-	char bname[30];
-    char author[30];
+	char bname[N];
+    char author[N];
     int b_id;
     int check;
 } book[50];
@@ -76,16 +78,18 @@ void create()
      int i;
 	 if(user_cnt == 20)
      {
-	 	printf("error.... nomore member can we have\n");
+	 	printf("error.... nomore member we can have\n");
         return;
 	 }
      else
      {
-	     printf("\nenter ur name\n");
-	     fflush(stdin);
-	     scanf("%[^\n]s",user[user_cnt].uname);
-	     printf("enter ur phone no\n");
-	     scanf("%lld",&user[user_cnt].phone);
+       // fflush(stdin);
+	     printf("\nEnter ur name: ");
+         scanf("%30s", user[user_cnt].uname); 
+         fflush(stdin);
+	     printf("Enter ur phone no.: "); 	     
+         fflush(stdin);
+	     scanf("%lld", &user[user_cnt].phone);
 	     printf("enter password[numeicals only...6 digits max]\n");
 	     scanf("%d",&user[user_cnt].pass);
 	     user[user_cnt].u_id = user_cnt;
@@ -183,7 +187,7 @@ void deposit(int loc)
 void update(int loc)
 {
      int ch ,i ;
-     char name[30];
+     char name[N];
     for(;;)
 	{
 		printf("\n1 - update name\n2 - update phone no\n3 - update password\n4 - exit\n");
@@ -191,9 +195,9 @@ void update(int loc)
         switch(ch)
           {
                case 1:printf("enter new name ...");
-                      scanf("%s",name);
-//                      strcpy(user[loc].uname,NULL);
-                      strcpy(user[loc].uname,name);
+                      scanf("%[^\n]s", user[loc].uname);
+                      // strcpy(user[loc].uname,NULL);
+                      // strcpy(user[loc].uname,name);
                       break;
                case 2:user[loc].phone = 0;
                       printf("enter ur new phone no\n");
