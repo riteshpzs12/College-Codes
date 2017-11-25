@@ -43,9 +43,16 @@ public class Build {
 			System.out.println(k2[i]+"\n");
 		}
 	}
-	public static void main(String args[])  {	
+	public static void main(String args[])  {
 		Scanner in1=new Scanner(System.in);
-		String filepath=in1.nextLine();
+                if (args.length < 1) {
+                    System.out.println("Enter a filepath in the commandline.");
+                    for(int i = 0; i < args.length; i++) {
+                        System.out.println(args[i]);
+                    }
+                    System.exit(-1);
+                }
+		String filepath=args[0];
 		Build b;
 		try {
 			b = new Build(new File(filepath));
