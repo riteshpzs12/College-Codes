@@ -3,6 +3,8 @@ A simple tool to generate typos of a word (password). [[What it does?]]
 The code takes an input of the path to the keyboard layout.  It is now done for
 the normal laptop keyboard. [[How does it work?]]
 for any layout the code will work..  
+First you need to create the keyboard layout you want to solve in a text file 
+and save it locally.Sample layout for 
 
 ## How to compile
 ```bash
