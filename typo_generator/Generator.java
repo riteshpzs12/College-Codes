@@ -1,4 +1,6 @@
 import java.util.Scanner;
+import java.util.List;
+import java.util.ArrayList;
 
 public class Generator {
     public static char Result_typo[][] = new char[96][14];
@@ -7,11 +9,11 @@ public class Generator {
     public static int cnty = 0;
     public String k1[] = {};
 
-    public Generator(String k1[]) {
-        this.k1 = k1;
-        array = new char[k1.length][];
+    public Generator(List<String> k1) {
+        this.k1 = k1.toArray(new String[k1.size()]);
+        array = new char[k1.size()][];
         for (int i = 0; i < 4; i++) {
-            String line = k1[i];
+            String line = this.k1[i];
             array[i] = new char[line.length()];
             for (int j = 0; j < line.length(); j++) {
                 this.array[i][j] = line.charAt(j);

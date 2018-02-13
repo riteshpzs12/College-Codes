@@ -1,4 +1,4 @@
 Build: Build.java Generator.java
 	javac Build.java 
-run:
+run:	Build
 	java Build qwerty.txt ANUSHA
