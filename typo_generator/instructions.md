@@ -10,11 +10,11 @@ english US laptop keyboard.  This file is required to run the code.
 The code also takes a word fron stdin and then generate the typos of it.
 
 ## Files of this Project  
-|:---------|:---------------|
-|`Build.java`, `Generator.java` | Main code files, Build.java is the first file to be comppiled|
-|`qwerty.txt`|> US English normal keyboard layout Sample with shift and unshift layouts.|
-|`before_1.txt`, `before_2.txt`, `finalout.txt`| This code builds a character array of probable typos for a given keyboard layout. before_1 and before_2 are the pattern generated from qwerty.txt for without shift and with shift respectively. finalout is the final pattern after merging those two.|
-|`first_test_case.txt` | This is the first test case i tried after the code writing was done......HA HA HA|
+
+* `Build.java`, `Generator.java` ->  Main code files, Build.java is the first file to be comppiled
+* `qwerty.txt`-> US English normal keyboard layout Sample with shift and unshift layouts.
+* `before_1.txt`, `before_2.txt`, `finalout.txt`-> This code builds a character array of probable typos for a given keyboard layout. before_1 and before_2 are the pattern generated from qwerty.txt for without shift and with shift respectively. finalout is the final pattern after merging those two.
+* `first_test_case.txt` -> This is the first test case i tried after the code writing was done......HA HA HA
 
 ## How to compile
 ```bash
@@ -40,5 +40,6 @@ are at one [edit-distance](https://en.wikipedia.org/wiki/Edit_distance) from it.
 7. No more answer is in front of You. Judge it brother.
 
 ### Author  
-
-<span color="magenta">Ritesh Chatterjee</span>
+```diff
++Ritesh Chatterjee
+```
