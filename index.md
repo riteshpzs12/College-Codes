@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to My Past.
+
+Here are few Codes from my College Days mostly written in C and JAVA. Well if you have reached this far stroll a bit more in the page to know my Good Works. Most of the Codes here are some basic ideas or some game or an interesting try. Dont expect You or anyone to clone and try it out with ./a.out and gcc compiler and check the out in a black command window (thats terminal btw.....). 
 
 You can use the [editor on GitHub](https://github.com/riteshpzs12/College-Codes/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
@@ -10,6 +12,7 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 
 ```markdown
 Syntax highlighted code block
+```markdown
 
 # Header 1
 ## Header 2
