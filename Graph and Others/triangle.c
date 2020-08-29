@@ -3,7 +3,9 @@
 #include<stdlib.h>
 
 void cross(int,int,int,int);
-//void find(int **);
+void find();
+int max(int);
+int min(int);
 
 int rescheck;
 int a[3][2];
@@ -75,7 +77,7 @@ int min(cnt)
 	int x,y,z;
 	x = a[0][cnt];
 	y = a[1][cnt];
-	z = a[3][cnt];
+	z = a[2][cnt];
 	if(x<y)
 	{
 		if(x<z)
@@ -95,7 +97,7 @@ int max(cnt)
 	int x,y,z;
 	x = a[0][cnt];
 	y = a[1][cnt];
-	z = a[3][cnt];
+	z = a[2][cnt];
 	if(x>y)
 	{
 		if(x>z)
