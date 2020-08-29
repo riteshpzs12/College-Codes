@@ -2,10 +2,6 @@
 
 Here are few Codes from my College Days mostly written in C and JAVA. Well if you have reached this far stroll a bit more in the page to know my Good Works. Most of the Codes here are some basic ideas or some game or an interesting try. Dont expect You or anyone to clone and try it out with ./a.out and gcc compiler and check the out in a black command window (thats terminal btw.....). 
 
-You can use the [editor on GitHub](https://github.com/riteshpzs12/College-Codes/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
 ## What Special
 
 Well when you learn coding initially a thrill generates automatically how these so many are things working with lines of codes. For me being a game lover and also having an awesome mentor in my brother, I felt challanged at things that can I do it. When you understand the logic how it works or in simple words the math for it it feels easy to code at least gives you courage to jump in. Luckily with all my interest I did jump in but unluckily i was late to become frinds with github and its awesomeness. So this repo is a bit old but vintage to me. Lets not talk more shit and go right in to the repo.........
@@ -26,15 +22,13 @@ A DFMB (Digital Microfuidic Biochip) has a grid like chamber where we put in a s
     
 Here is the codebase [link](https://github.com/riteshpzs12/College-Codes/tree/master/Games);
 
-- **Grapth and Others** :- A few here and there things with graphs and new computer concepts when I starte to learn. Curiousity mentoring was the reason.
-    1. _Chromatic No_ :- This one takes a vertices and Edge detials as input for a connected graph and tries to find out the chromatic no based on 
+- **Grapth and Others** :- A few here and there things with graphs and few new computer concepts when I started to learn. Curiousity and mentoring was the reason.
+    1. _Chromatic No_ :- This one takes a vertices and Edge detials as input for a connected graph and tries to find out the [chromatic no] (https://study.com/academy/lesson/chromatic-number-definition-examples.html#:~:text=The%20chromatic%20number%20of%20a%20graph%20is%20the%20minimum%20number,there%20are%20no%20time%20conflicts). This is not the optimum solution but a nice try.
+    
+    2. _UnFinished_ :- This is a set of unfinished codes. I am also not sure of the logic now but here i have a failed attemt to make a local C library for vector calculations.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Here is the codebase [link](https://github.com/riteshpzs12/College-Codes/tree/master/Graph%20and%20Others);
+    
+- **Typo Generator** :- When we type something in a hurry there is a high chance we do mistype one or two letters in the word what we desire. Back then this google keyboard auto correction wasnt this much hit and I tried this thing with the help of my brother jsut to figure out the typos a person might do while typing his password. This Code takes a keyboard layout as input in a matrix array format and then builds the probable typo matrix for each character (Only those that we can use in passwords). And now whatever is your password all possible [1-edit distance](https://en.wikipedia.org/wiki/Edit_distance) typo strings will be generated. Now we have this vastly used eveywhere but back then it was an interesting idea.
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/riteshpzs12/College-Codes/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Here is the codebase [link](https://github.com/riteshpzs12/College-Codes/tree/master/typo_generator);
