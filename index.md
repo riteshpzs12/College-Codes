@@ -6,13 +6,12 @@ You can use the [editor on GitHub](https://github.com/riteshpzs12/College-Codes/
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## What Special
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Well learn coding initially a thrill generates automatically how these things are made of it. For me being a game lover and also having an awesome mentor in my brother, I felt challanged at things that can I do it. When you understand the logic how it works or in simple words the math for it it feels easy to code at least gives you courage to jump in. Luckily with all my interest did jump in but unluckily became frinds with github and its awesomeness later so this repo is a bit old but vintage to me. Lets not talk more shit and go right in to the repo.........
 
 ```markdown
 Syntax highlighted code block
-```markdown
 
 # Header 1
 ## Header 2
@@ -28,6 +27,14 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
+
+## Repo BreakDown
+
+- **The Library** :- Its a basic C code project when I first learnt file write and reading. There is a books, users database (just two text file), and a .c file with every function in it. Create account, Login, Issue book, Deposit, Update user data, Update book data are the basic functionalities and mostof them are synced into the two text files. here is the codebase [link](https://github.com/riteshpzs12/College-Codes/tree/master/library).
+
+
+
+
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
