@@ -16,9 +16,9 @@ Well when you learn coding initially a thrill generates automatically how these 
 
 - **Games** :- I love gaming, be it Call of Duty or Fifa or even if it is small one page mobile game. So tried out a few as thrill of coding was raw.
     
-    - ***ChainReaction*** :- This was a single device multiplayer game back then which did evolve later to support multiple device thing. I implemented the basic logic of this game and made a C console game where user can play by giving co ordinates of the cell where he wants to give input. Its a exact working solution of that game just the UI and User control was inferior as it had to run on terminal and I had no knowledge of APP UI. This is a personal todo task for me to do the same in mobile with a few tweaks as I am well aware of APP development.
+    - ***ChainReaction*** :- This was a single device multiplayer game back then which did evolve later to support multiple device thing. I implemented the basic logic of this game and made a C console game where user can play by giving co ordinates of the cell where he wants to give input. Its a exact working solution of that game just the UI and User control was inferior as it had to run on terminal and I had no knowledge of APP UI. _This is a personal todo task for me to do the same in mobile with a few tweaks as I am well aware of APP development now_.
     
-    - **_2048_** :- This was a really famous game at that time and the whole logic was math. I did made it with custom control to select the grid size but to be played in Terminal window. This is exact same fully working solution but with a inferior UI. This is another todo for me to create an APP based on this witha. few tweaks.
+    - **_2048_** :- This was a really famous game at that time and the whole logic was math. I did made it with custom control to select the grid size but to be played in Terminal window. This is exact same fully working solution but with a inferior UI. _This is another todo for me to create an APP based on this with a few tweaks_.
     
     - **_Blocked_** :- This is similar to chain reaction but with custom field as size of matrix and a far more optimized coding but unfortunately this is unfinished and still a few things left.
     
