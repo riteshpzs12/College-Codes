@@ -15,11 +15,12 @@ Well when you learn coding initially a thrill generates automatically how these 
     Here is the codebase [link](https://github.com/riteshpzs12/College-Codes/tree/master/typo_generator).
 
 - **Games** :- I love gaming, be it Call of Duty or Fifa or even if it is small one page mobile game. So tried out a few as thrill of coding was raw.
-    1. ***ChainReaction*** :- This was a single device multiplayer game back then which did evolve later to support multiple device thing. I implemented the basic logic of this game and made a C console game where user can play by giving co ordinates of the cell where he wants to give input. Its a exact working solution of that game just the UI and User control was inferior as it had to run on terminal and I had no knowledge of APP UI. This is a personal todo task for me to do the same in mobile with a few tweaks as I am well aware of APP development.
     
-    2. **_2048_** :- This was a really famous game at that time and the whole logic was math. I did made it with custom control to select the grid size but to be played in Terminal window. This is exact same fully working solution but with a inferior UI. This is another todo for me to create an APP based on this witha. few tweaks.
+    - ***ChainReaction*** :- This was a single device multiplayer game back then which did evolve later to support multiple device thing. I implemented the basic logic of this game and made a C console game where user can play by giving co ordinates of the cell where he wants to give input. Its a exact working solution of that game just the UI and User control was inferior as it had to run on terminal and I had no knowledge of APP UI. This is a personal todo task for me to do the same in mobile with a few tweaks as I am well aware of APP development.
     
-    3. **_Blocked_** :- This is similar to chain reaction but with custom field as size of matrix and a far more optimized coding but unfortunately this is unfinished and still a few things left.
+    - **_2048_** :- This was a really famous game at that time and the whole logic was math. I did made it with custom control to select the grid size but to be played in Terminal window. This is exact same fully working solution but with a inferior UI. This is another todo for me to create an APP based on this witha. few tweaks.
+    
+    - **_Blocked_** :- This is similar to chain reaction but with custom field as size of matrix and a far more optimized coding but unfortunately this is unfinished and still a few things left.
     
     Here is the codebase [link](https://github.com/riteshpzs12/College-Codes/tree/master/Games).
 
@@ -28,9 +29,10 @@ A DFMB ([Digital Microfuidic Biochip](https://en.wikipedia.org/wiki/Digital_micr
 
 
 - **Grapth and Others** :- A few here and there things with graphs and few new computer concepts when I started to learn. Curiousity and mentoring was the reason.
-    1. ___Chromatic No___ :- This one takes a vertices and Edge detials as input for a connected graph and tries to find out the [chromatic no](https://en.wikipedia.org/wiki/Graph_coloring). This is not the optimum solution but a nice try.
+
+    - ___Chromatic No___ :- This one takes a vertices and Edge detials as input for a connected graph and tries to find out the [chromatic no](https://en.wikipedia.org/wiki/Graph_coloring). This is not the optimum solution but a nice try.
     
-    2. ___UnFinished___ :- This is a set of unfinished codes. I am also not sure of the logic now but here i have a failed attemt to make a local C library for vector calculations.
+    - ___UnFinished___ :- This is a set of unfinished codes. I am also not sure of the logic now but here i have a failed attemt to make a local C library for vector calculations.
 
     Here is the codebase [link](https://github.com/riteshpzs12/College-Codes/tree/master/Graph%20and%20Others).
     
