@@ -33,11 +33,16 @@ int main()
 		printf("player 1 --> *\t player 2 --> #\t player 3 --> @\t player 4 --> $\t player 5 --> &\n");
 	else if(n == 6)
 		printf("player 1 --> *\t player 2 --> #\t player 3 --> @\t player 4 --> $\t player 5 --> &\t player 6 --> ?\n");	
+	print();
 	for(;;)
 	{
 		cnt = count%n + 1;
 		printf("enter co rodinate for player %d\n", cnt);
-		scanf("%d%d", &x, &y);
+		printf("enter x corodinate -  ");
+		scanf("%d", &y);
+		printf("enter y corodinate - ");
+		scanf("%d", &x);
+		printf("\n");
 		if(a[x+5][y+5]==0||a[x+5][y+5]/10==cnt)
 		{
 			input(x,y,cnt);
