@@ -1,2 +1,0 @@
-Algorithms in C;Ritesh Chourasia;1;0
-asdas ;adsasda;2;0
